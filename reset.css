@@ -1,0 +1,27 @@
+/* CSS Reset baseado no modelo de Eric Meyer */
+
+html, body, div, span, h1, h2, h3, p, img,
+header, section, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* Define o comportamento dos elementos */
+* {
+    box-sizing: border-box;
+}
+
+/* Remove estilos padrões das imagens */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Padroniza o documento */
+body {
+    line-height: 1;
+}

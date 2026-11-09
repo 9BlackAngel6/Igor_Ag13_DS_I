@@ -1,0 +1,98 @@
+/* Estilo principal do Meu Portal de Entretenimento Digital */
+
+/* Configuração geral da página */
+body {
+    background-color: #101014;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Cabeçalho principal */
+header {
+    text-align: center;
+    padding: 35px 15px;
+    background: linear-gradient(135deg, #35004d, #171717);
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+/* Título principal */
+.titulo-principal {
+    color: #e0aaff;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+/* Texto de apresentação */
+header p {
+    color: #dddddd;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Organização das três seções usando Flexbox */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Estilo individual dos cartões */
+.secao {
+    background-color: #202027;
+    border: 1px solid #7020a0;
+    border-radius: 15px;
+    padding: 20px;
+    flex: 1 1 280px;
+    max-width: 400px;
+}
+
+/* Títulos das seções */
+.titulo-secao {
+    color: #d58aff;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Formatação das imagens */
+.imagem-portal {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+/* Textos explicativos */
+.secao p {
+    color: #cccccc;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 30px;
+    color: #aaaaaa;
+}
+
+/* Adaptação para telas menores */
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    .titulo-principal {
+        font-size: 24px;
+    }
+
+    .secao {
+        max-width: 100%;
+    }
+}
